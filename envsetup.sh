@@ -55,6 +55,7 @@ IMPORTING_ENVSETUP=true source $T/build/make/shell_utils.sh
 
 
 # Help
+export WITH_GMS=true
 function hmm() {
 cat <<EOF
 

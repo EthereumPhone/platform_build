@@ -43,3 +43,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES_DEBUG += \
     frameworks-base-overlays-debug
+
+# Build in theming functionality
+$(call inherit-product-if-exists, themes/main.mk)
+
+PRODUCT_COPY_FILES += \
+    system/media/bootanimation.zip:product/media/bootanimation.zip
