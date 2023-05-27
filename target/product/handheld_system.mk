@@ -76,9 +76,10 @@ PRODUCT_PACKAGES += \
     VpnDialogs \
     vr \
     LightNodeStats \
-    Firefox \
-    MetaMask \
-    SMSApp \
+    ethOSBrowser \
+    NFTMintApp \
+    XMTPSMSApp \
+    WalletApp \
 
 PRODUCT_SYSTEM_SERVER_APPS += \
     FusedLocation \
