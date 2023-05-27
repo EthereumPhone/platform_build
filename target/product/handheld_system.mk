@@ -73,9 +73,10 @@ PRODUCT_PACKAGES += \
     VpnDialogs \
     vr \
     LightNodeStats \
-    Firefox \
-    MetaMask \
-    SMSApp \
+    ethOSBrowser \
+    NFTMintApp \
+    XMTPSMSApp \
+    WalletApp \
 
 PRODUCT_SYSTEM_SERVER_APPS += \
     FusedLocation \
@@ -85,7 +86,6 @@ PRODUCT_SYSTEM_SERVER_APPS += \
 
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libeffects/data/audio_effects.conf:system/etc/audio_effects.conf\
-    system/core/libgojni/jni/arm64-v8a/libgojni.so:system/lib64/libgojni.so\
     system/media/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_VENDOR_PROPERTIES += \
