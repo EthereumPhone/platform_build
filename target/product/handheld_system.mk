@@ -86,7 +86,9 @@ PRODUCT_SYSTEM_SERVER_APPS += \
 
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libeffects/data/audio_effects.conf:system/etc/audio_effects.conf\
-    system/media/bootanimation.zip:system/media/bootanimation.zip
+    system/media/bootanimation.zip:system/media/bootanimation.zip\
+    system/core/libllm/llama:system/bin/llama\
+    system/media/ggml-model-q4_0.bin:system/media/ggml-model-q4_0.bin
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.carrier?=unknown \
