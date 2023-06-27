@@ -22,8 +22,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/media_product.mk)
 
 # /product packages
 PRODUCT_PACKAGES += \
-    Apps \
-    Auditor \
     Calendar \
     Camera \
     Contacts \
@@ -37,8 +35,8 @@ PRODUCT_PACKAGES += \
     preinstalled-packages-platform-handheld-product.xml \
     QuickSearchBox \
     SettingsIntelligence \
-    TrichromeChrome \
-    frameworks-base-overlays
+    frameworks-base-overlays \
+    Apps
 
 PRODUCT_PACKAGES_DEBUG += \
     frameworks-base-overlays-debug
