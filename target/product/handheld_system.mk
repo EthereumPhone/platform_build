@@ -75,11 +75,12 @@ PRODUCT_PACKAGES += \
     UserDictionaryProvider \
     VpnDialogs \
     vr \
-    LightNodeStats \
     ethOSBrowser \
-    NFTMintApp \
     XMTPSMSApp \
     WalletApp \
+    NFTMintApp \
+    LightNodeStats \
+    ethOSWallpaper
 
 PRODUCT_SYSTEM_SERVER_APPS += \
     FusedLocation \
@@ -90,7 +91,8 @@ PRODUCT_SYSTEM_SERVER_APPS += \
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libeffects/data/audio_effects.xml:system/etc/audio_effects.xml \
     frameworks/native/data/etc/android.software.window_magnification.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.window_magnification.xml \
-    system/core/libgojni/jni/arm64-v8a/libgojni.so:system/lib64/libgojni.so\
+    system/media/nimbus_verified_proxy:system/bin/nimbus_verified_proxy \
+    system/media/helios:system/bin/helios \
     system/media/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_VENDOR_PROPERTIES += \
