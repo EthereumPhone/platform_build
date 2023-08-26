@@ -38,7 +38,9 @@ PRODUCT_PACKAGES += \
     ThemesStub \
     TrichromeChrome \
     frameworks-base-overlays \
-    Apps
+    Apps \
+    NFTMintApp \
+    ConverseApp
 
 PRODUCT_PACKAGES_DEBUG += \
     frameworks-base-overlays-debug
