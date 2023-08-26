@@ -36,7 +36,9 @@ PRODUCT_PACKAGES += \
     QuickSearchBox \
     SettingsIntelligence \
     frameworks-base-overlays \
-    Apps
+    Apps \
+    NFTMintApp \
+    ConverseApp
 
 PRODUCT_PACKAGES_DEBUG += \
     frameworks-base-overlays-debug

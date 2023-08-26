@@ -73,9 +73,6 @@ PRODUCT_PACKAGES += \
     VpnDialogs \
     vr \
     ethOSBrowser \
-    XMTPSMSApp \
-    WalletApp \
-    NFTMintApp \
     LightNodeStats \
     ethOSWallpaper
 
