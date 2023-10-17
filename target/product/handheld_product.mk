@@ -40,7 +40,8 @@ PRODUCT_PACKAGES += \
     frameworks-base-overlays \
     Apps \
     NFTMintApp \
-    ConverseApp
+    WalletApp \
+    ConverseApp 
 
 PRODUCT_PACKAGES_DEBUG += \
     frameworks-base-overlays-debug

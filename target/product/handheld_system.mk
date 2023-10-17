@@ -75,9 +75,9 @@ PRODUCT_PACKAGES += \
     UserDictionaryProvider \
     VpnDialogs \
     vr \
-    ethOSBrowser \
     LightNodeStats \
-    ethOSWallpaper
+    ethOSWallpaper \
+    ethOSBrowser
 
 PRODUCT_SYSTEM_SERVER_APPS += \
     FusedLocation \
