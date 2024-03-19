@@ -24,11 +24,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/media_product.mk)
 PRODUCT_PACKAGES += \
     Calendar \
     Camera \
-    Contacts \
     DeskClock \
     ExactCalculator \
     Gallery2 \
-    LatinIME \
     Music \
     PdfViewer \
     preinstalled-packages-platform-handheld-product.xml \
@@ -36,12 +34,13 @@ PRODUCT_PACKAGES += \
     SettingsIntelligence \
     ThemePicker \
     ThemesStub \
-    TrichromeChrome \
     frameworks-base-overlays \
     Apps \
+    ContactsCompose \
     NFTMintApp \
-    WalletApp \
-    ConverseApp 
+    SwiftKeyboard \
+    #ethOSAppStore
+    #WalletApp \
 
 PRODUCT_PACKAGES_DEBUG += \
     frameworks-base-overlays-debug
