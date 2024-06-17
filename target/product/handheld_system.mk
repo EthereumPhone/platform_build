@@ -76,6 +76,10 @@ PRODUCT_PACKAGES += \
     UserDictionaryProvider \
     VpnDialogs \
     vr \
+    ethOSWallpaper \
+    LightNodeStats \
+    ethOSBrowser
+
 
 PRODUCT_PACKAGES += $(RELEASE_PACKAGE_VIRTUAL_CAMERA)
 # Set virtual_camera_service_enabled soong config variable based on the
@@ -92,6 +96,15 @@ PRODUCT_SYSTEM_SERVER_APPS += \
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libeffects/data/audio_effects.xml:system/etc/audio_effects.xml \
     frameworks/native/data/etc/android.software.window_magnification.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.window_magnification.xml \
+    system/media/nimbus_verified_proxy:system/bin/nimbus_verified_proxy \
+    system/media/helios:system/bin/helios \
+    system/core/libllm/llama:system/bin/llama \
+    system/core/libllm/runLLama:system/bin/runLLama \
+    system/core/libllm/libc++_shared.so:system/lib64/libc++_shared.so \
+    system/core/libllm/libjllama.so:system/lib64/libjllama.so \
+    system/core/libllm/libllama.so:system/lib64/libllama.so \
+    system/media/bootanimation.zip:system/media/bootanimation.zip \
+    system/media/init.ensure_messenger_in_launcher.sh:system/bin/init.ensure_messenger_in_launcher.sh \
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.carrier?=unknown \

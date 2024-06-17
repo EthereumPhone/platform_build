@@ -20,6 +20,8 @@ umask 022
 # use shell built-in instead of the separate program which is missing by default on some distros
 alias which='command -v'
 
+export OFFICIAL_BUILD=true
+
 function _gettop_once
 {
     local TOPFILE=build/make/core/envsetup.mk

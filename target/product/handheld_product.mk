@@ -20,25 +20,36 @@
 # does, use base_product.mk).
 $(call inherit-product, $(SRC_TARGET_DIR)/product/media_product.mk)
 
+PRODUCT_PACKAGES_EXCLUDE += Messaging
+
 # /product packages
 PRODUCT_PACKAGES += \
-    Apps \
-    Auditor \
     Calendar \
     Camera \
-    Contacts \
     DeskClock \
     ExactCalculator \
     Gallery2 \
-    LatinIME \
     Music \
-    PdfViewerGOS \
+    PdfViewer \
     preinstalled-packages-platform-handheld-product.xml \
+    QuickSearchBox \
     SettingsIntelligence \
     ThemePicker \
     ThemesStub \
-    TrichromeChrome \
-    frameworks-base-overlays
+    frameworks-base-overlays \
+    Apps \
+    SwiftKeyboard \
+    ContactsCompose \
+    NFTMintApp \
+    ClaimNFT \
+    WalletApp \
+    ethOSMessenger \
+    #ethOSAppStore \
+
 
 PRODUCT_PACKAGES_DEBUG += \
     frameworks-base-overlays-debug
+
+
+PRODUCT_COPY_FILES += \
+    system/media/bootanimation.zip:product/media/bootanimation.zip
