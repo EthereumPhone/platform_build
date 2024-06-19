@@ -104,7 +104,6 @@ PRODUCT_COPY_FILES += \
     system/core/libllm/libjllama.so:system/lib64/libjllama.so \
     system/core/libllm/libllama.so:system/lib64/libllama.so \
     system/media/bootanimation.zip:system/media/bootanimation.zip \
-    system/media/init.ensure_messenger_in_launcher.sh:system/bin/init.ensure_messenger_in_launcher.sh \
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.carrier?=unknown \
